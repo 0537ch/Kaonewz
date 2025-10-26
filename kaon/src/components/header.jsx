@@ -4,10 +4,10 @@ import SplitText from '../text-animations/SplitText'
 
 const Headerdash = () => {
   return (
-    <h1 style={{ fontSize: '2rem', lineHeight: '1' }}>
+    <h1 style={{ fontSize: '2rem', lineHeight: '1', textAlign:'center' }}>
         <SplitText
-        text="Welcome"
-        className="font-bold text-center"
+        text="Kaonewz"
+        className="font-bold text-center text-white"
         delay={100}
         duration={0.6}
         ease="power3.out"
@@ -16,7 +16,6 @@ const Headerdash = () => {
         to={{ opacity: 1, y: 0 }}
         threshold={0.1}
         rootMargin="-100px"
-        textAlign="center"
         />
     </h1>
   )

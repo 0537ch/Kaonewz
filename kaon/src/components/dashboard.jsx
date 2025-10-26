@@ -14,6 +14,7 @@ const MainDashboard = () => {
         backgroundColor: '#0a0a0a',
       }}
     >
+      <Headerdash />
       {/* Background Prism Layer */}
       <div
         style={{
@@ -45,7 +46,7 @@ const MainDashboard = () => {
           zIndex: 10, 
         }}
       >
-        <Headerdash />
+        
         <News />
       </div>
     </div>
